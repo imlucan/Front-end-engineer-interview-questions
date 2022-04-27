@@ -192,16 +192,6 @@ Promise.all([a, b, c])
 //实现一个简单的事件防抖，频繁触发fn时，只会触发最后一次
 const debounce=(fn,timer)=>{
   // impl
-  let pre = new Date
-  return function()=>{
-    let func 
-    let now = new Date
-    if(now - pre > timer) {
-      func = fn.apply(this,...args)
-    }else{
-      pre = now
-    }
-  }
 }
 //实现一个简单的事件节流，频繁触发fn时，一段时间内仅执行一次
 const throttle=(fn,timer)=>{
