@@ -5,8 +5,9 @@
 1. **[简答]JS 基本数据类型 引用数据类型**
 
   ```JS
-  // 基本数据类型 number string null undefined bool symbol
-  // 引用数据类型 object function array data .... 
+  // 基本数据类型
+  // 引用数据类型
+  // 这两类有什么区别
   ```
 
 2. **[简答]JS 运算符**
@@ -33,9 +34,9 @@ let arr = [
   {id: 5, name: '部门5', pid: 4},
 ]
 ```
-
+目标数据结构
 ```JSON
-//目标数据结构
+
 {
     "id": 1,
     "name": "部门1",
